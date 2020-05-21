@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bethehero",
-    "slug": "bethehero",
+    "name": "mobile",
+    "slug": "mobile",
     "platforms": [
       "ios",
       "android",
