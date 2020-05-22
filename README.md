@@ -17,11 +17,8 @@ The project was developed over the one week course of Rocketseat, from the eleve
 
 ### How  is the application 
 
-image1
-
-image2
-
-image3
+<img src="https://github.com/AndersonAndrad/betheheroMobile/blob/master/images/photo_2020-05-22_13-48-49.jpg">
+<img src="https://github.com/AndersonAndrad/betheheroMobile/blob/master/images/photo_2020-05-22_13-49-02.jpg">
 
 ### 🚀 How to install the project
 
