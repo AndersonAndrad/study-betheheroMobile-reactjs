@@ -54,14 +54,14 @@ export default function Detail() {
       <View style={styles.header}>
         <Image source={logoImg} />
         <Text style={styles.headerText}>
-          Total de
-          <Text style={styles.headerTextBold}> {total} casos</Text>
+          Total of
+          <Text style={styles.headerTextBold}> {total} cases</Text>
         </Text>
       </View>
 
-      <Text style={styles.title}>Bem vindo</Text>
+      <Text style={styles.title}>Welcome</Text>
       <Text style={styles.description}>
-        Escolha um dos casos abaixo e salve o dia.
+        Choose one of the cases below and save the day.
       </Text>
 
       <FlatList
@@ -75,11 +75,12 @@ export default function Detail() {
           <View style={styles.incident}>
             <Text style={styles.incidentProperty}>ONG:</Text>
             <Text style={styles.incidentValue}>{incident.name}</Text>
-            <Text style={styles.incidentValue}>{incident.id}</Text>
-            <Text style={styles.incidentValue}>{page}</Text>
 
-            <Text style={styles.incidentProperty}>CASO:</Text>
+            <Text style={styles.incidentProperty}>CASE:</Text>
             <Text style={styles.incidentValue}>{incident.title}</Text>
+
+            <Text style={styles.incidentProperty}>DESCRIPTION:</Text>
+            <Text style={styles.incidentValue}>{incident.description}</Text>
 
             <Text style={styles.incidentProperty}>VALUE:</Text>
             <Text style={styles.incidentValue}>
@@ -93,7 +94,7 @@ export default function Detail() {
               style={styles.detailsButton}
               onPress={() => navigateToDetail(incident)}
             >
-              <Text style={styles.detailsButtonText}>ver mais detalhes</Text>
+              <Text style={styles.detailsButtonText}>See more details</Text>
               <Feather name="arrow-right" size={17} color="#e02041" />
             </TouchableOpacity>
           </View>
