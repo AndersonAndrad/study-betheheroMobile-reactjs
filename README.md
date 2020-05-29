@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="https://github.com/AndersonAndrad/betheheroFrontend/blob/master/src/assets/logo.svg" align="center">
+</p>
+
+<p align="center">
+  <a href="https://expo.io/"><img src="https://img.shields.io/badge/Expo-37.x-blue"></a>
+  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node-12.x-green"></a>
+</p>
+
+:computer: [Backend](https://github.com/AndersonAndrad/betheheroBackend)
+
+:computer:[Frontend](https://github.com/AndersonAndrad/betheheroFrontend)
+
 # Be the hero (Mobile)
 
 ###  :bulb: ​About the project
